@@ -1,5 +1,5 @@
 # 1.  demonstrate the app
-Notice front-end functionality is present, only SQL queries are missing
+Notice front-end functionality is present, only the server and SQL queries are missing
 <br/> The app will demonstrate joining two different tables and displaying their respective data
 <br/> The filter features work via queries as well rather than array methods
 <br/>
