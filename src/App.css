@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+#vehicles {
+  display: flex;
+  width: 60vw;
+  margin: 0 auto;
+}
+#vehicle{
+  display: flex;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.make{
+  width: 15vw;
+  border: 2px solid black;
+}
+
+.model{
+  width: 15vw;
+  border: 2px solid black
+}
+
+.year {
+  width: 10vw;
+  border: 2px solid black
+}
+
+.name {
+  width: 10vw;
+  border: 2px solid black
+}
