@@ -1,4 +1,4 @@
-# 1.  demonstrate the app
+## 1.  demonstrate the app
 Notice front-end functionality is present, only the server and SQL queries are missing
 <br/> The app will demonstrate joining two different tables and displaying their respective data
 <br/> The filter features work via queries as well rather than array methods
@@ -6,7 +6,8 @@ Notice front-end functionality is present, only the server and SQL queries are m
 <br/>
 <br/>
 <br/>
-# 2.  setup server
+
+## 2.  setup server
 run npm install to install required app packages. 
 
 * Then set your server up to connect to your db via Massive
@@ -49,7 +50,7 @@ massive({
 <br/>
 <br/>
 
-# 3.  setup .env
+## 3.  setup .env
 Setup your environment variables. SERVER_PORT should be set to 3500. Grab your CONNECTION_STRING from Heroku
 <details closed>
 
@@ -65,9 +66,9 @@ CONNECTION_STRING = 'your connection string'
 <br/>
 
 
-# 4. Open SQL TABS and create two tables
+## 4. Open SQL TABS and create two tables
 
-## 4a. the first table (called "cars") should list the cars with columns of make, model, and year
+4a. the first table (called "cars") should list the cars with columns of make, model, and year
 <details closed>
 
 ```SQL
@@ -84,7 +85,7 @@ CREATE TABLE cars(
 <br/>
 <br/>
 
-## 4b. the second table (called "garage") should list the name and vehicle id that they own from the cars table
+ 4b. the second table (called "garage") should list the name and vehicle id that they own from the cars table
 
 <details closed>
 
@@ -106,7 +107,8 @@ CREATE TABLE garage(
 # create a db folder to store queries in
 
 
-## 5. get_all_cars.sql
+ ## 5. get_all_cars.sql
+
 write a query that will select everything on the cars table
 
 <details closed>
